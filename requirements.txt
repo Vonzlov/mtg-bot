@@ -1,0 +1,10 @@
+langgraph>=1,<2
+langchain-core>=1,<2
+langchain-ollama>=1,<2
+aiogram>=3,<4
+python-dotenv
+httpx
+faster-whisper
+# faster-whisper 1.2.1 passes metadata_errors to av.open(),
+# which av 19 no longer accepts, so av stays below 19
+av<19
